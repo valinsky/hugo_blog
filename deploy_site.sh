@@ -9,7 +9,7 @@ printf "\033[0;32mDeploying updates to GitHub\033[0m\n"
 # find ./public/ -not -name 'CNAME' -delete
 
 printf "\033[0;32mBuilding hugo site\033[0m\n"
-hugo
+hugo -D
 
 printf "\033[0;32mCommit public folder\033[0m\n"
 cd public
