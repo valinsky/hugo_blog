@@ -26,3 +26,5 @@ git commit -m "$msg"
 
 printf "\033[0;32mPush public to valinsky.github.io\033[0m\n"
 git push origin master
+
+printf "\033[0;32mDon't forget to push to hugo_blog\033[0m\n"
