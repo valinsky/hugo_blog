@@ -1,0 +1,75 @@
+baseurl: "/"
+# absURL: /
+# relURL: ''
+languageCode: en-us
+title: Valinsky's Homepage
+theme: hello-friend-ng
+author:
+  name: Dumitru Valeriu Voicu
+# googleAnalytics: UA-151935413-1
+# copyright: ''
+# readOtherPosts: Read other posts
+# paginate: 10
+
+# Permalink: aklsjfgbajkhyfgvjkasfgvjkasvf
+# relPermalink: aklsjfgbajkhyfgvjkasfgvjkasvf
+
+# permalinks:
+#   posts: /posts/:year/:month/:title/
+
+
+params:
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName: posts
+  # Default theme "light" or "dark"
+  defaultTheme: dark
+  homeSubtitle: Software Engineer
+  
+  # Metadata mostly used in document's head
+  description: Homepage of Valinsky
+  keywords: homepage, blog, science, informatics, development, programming, software
+  # images:
+  #   - ''
+  
+  # taxonomy?
+  # tags:
+  #   - homepage
+  #   - blog
+  #   - software
+  #   - programming
+  #   - science
+  #   - informatics
+  #   - development
+  
+  # favicon:
+  #   color:
+  #     mask: "#252627"
+  #     msapplication: "#252627"
+  #     theme: "#252627"
+
+  logo:
+    logoText: $ cd /valinsky/homepage
+    logoHomeLink: /
+  
+  social:
+    - name: github
+      url: https://github.com/valinsky
+    - name: twitter
+      url: https://twitter.com/valinsky2k
+    - name: linkedin
+      url: https://www.linkedin.com/in/dumitruvaleriuvoicu/
+
+  # date format
+  dateform: Jan 2, 2006
+  dateformShort: Jan 2
+  dateformNum: 2006-01-02
+  dateformNumTime: 2006-01-02 15:04 -0700
+
+menu:
+  main:
+    - identifier: blog
+      name: blog
+      url: /posts
+    - identifier: about
+      name: about
+      url: /about
