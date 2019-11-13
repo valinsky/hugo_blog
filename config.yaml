@@ -1,4 +1,4 @@
-baseurl: "/"
+baseurl: /
 languageCode: en-us
 title: Valinsky's Homepage
 theme: hello-friend-ng
@@ -22,11 +22,11 @@ params:
   description: Homepage of Valinsky
   keywords: homepage, blog, science, informatics, development, programming, software
    
-  # favicon:
-  #   color:
-  #     mask: "#252627"
-  #     msapplication: "#252627"
-  #     theme: "#252627"
+  favicon:
+    color:
+      mask: "#252627"
+      msapplication: "#252627"
+      theme: "#252627"
 
   logo:
     logoText: $ cd /valinsky/homepage
