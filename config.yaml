@@ -1,22 +1,15 @@
 baseurl: "/"
-# absURL: /
-# relURL: ''
 languageCode: en-us
 title: Valinsky's Homepage
 theme: hello-friend-ng
 author:
   name: Dumitru Valeriu Voicu
-# googleAnalytics: UA-151935413-1
+googleAnalytics: UA-151935413-1
 # copyright: ''
-# readOtherPosts: Read other posts
 # paginate: 10
-
-# Permalink: aklsjfgbajkhyfgvjkasfgvjkasvf
-# relPermalink: aklsjfgbajkhyfgvjkasfgvjkasvf
 
 # permalinks:
 #   posts: /posts/:year/:month/:title/
-
 
 params:
   # Directory name of your blog content (default is `content/posts`)
@@ -28,19 +21,7 @@ params:
   # Metadata mostly used in document's head
   description: Homepage of Valinsky
   keywords: homepage, blog, science, informatics, development, programming, software
-  # images:
-  #   - ''
-  
-  # taxonomy?
-  # tags:
-  #   - homepage
-  #   - blog
-  #   - software
-  #   - programming
-  #   - science
-  #   - informatics
-  #   - development
-  
+   
   # favicon:
   #   color:
   #     mask: "#252627"
