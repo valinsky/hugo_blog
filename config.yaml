@@ -1,6 +1,6 @@
 baseurl: /
 languageCode: en-us
-title: Valinsky's Homepage
+title: Valinsky
 theme: hello-friend-ng
 author:
   name: Dumitru Valeriu Voicu
@@ -17,11 +17,11 @@ params:
   # Default theme "light" or "dark"
   defaultTheme: dark
   homeSubtitle: Software Engineer
-  
+
   # Metadata mostly used in document's head
   description: Homepage of Valinsky
   keywords: homepage, blog, science, informatics, development, programming, software
-   
+
   favicon:
     color:
       mask: "#252627"
@@ -29,7 +29,7 @@ params:
       theme: "#252627"
 
   logo:
-    logoText: $ cd /valinsky/homepage
+    logoText: $ ./valinsky.sh
     logoHomeLink: /
   
   social:

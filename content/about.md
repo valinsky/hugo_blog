@@ -1,9 +1,15 @@
 ---
-title: "About"
-date: 2019-11-10T20:35:02-05:00
-draft: true
+title: About
+date: 2019-11-14T20:35:02-05:00
+draft: false
+description: Valinsky about page
+keywords: about, blog, post, valinsky
+toc: false
+tags:
+  - about
+  - valinsky
+categories:
+  - about
 ---
 
-<h3>Lorem ipsum</h3>
-
-</b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Hi, my name is Vali and I love the (free, open, uncensored and privacy focused) internet.
