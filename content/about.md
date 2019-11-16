@@ -13,3 +13,5 @@ categories:
 ---
 
 Hi, my name is Vali and I love the (free, open, uncensored and privacy focused) internet.
+
+<br>
