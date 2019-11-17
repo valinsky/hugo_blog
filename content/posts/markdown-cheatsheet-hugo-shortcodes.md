@@ -14,10 +14,9 @@ categories:
   - tutorial
 ---
 
-Everytime I end up writing [Markdown](https://www.markdownguide.org/) I find myself Googling even the simplest syntax, and since I need to write a lot of it for this site, I thought I'd put together a minimal cheatsheet for every Markdown noob out there, including myself.  
-Kudos to [Adam's markdwon-here wiki](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), from which I was heavily inspired.
+If you're not a [Markdown](https://www.markdownguide.org/) expert yet, this post is for you. I find myself Googling simple Markdown syntax everytime, so this post is for me as well. I thought I'd put together a simple and minimal cheatsheet I can reference anytime.  
 
-I'm also adding some [Hugo shortcodes](https://gohugo.io/content-management/shortcodes) because I'll be using those pretty often as well.  
+I'm also adding some [Hugo shortcodes](https://gohugo.io/content-management/shortcodes) at the end as a bonus.  
 <br>
 
 
@@ -53,7 +52,7 @@ I'm also adding some [Hugo shortcodes](https://gohugo.io/content-management/shor
 ###### H6
 
 
-Alternatively, for H1 and H2, there are two different underlines:
+For H1 and H2 you can also use two different types of uderlines:
 
 ```
 Alt-H1
@@ -74,40 +73,43 @@ Alt-H2
 ## Emphasis
 
 ```
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Italics, with *asterisks* or _underscores_.
 ```
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Italics, with *asterisks* or _underscores_.
 
 ```
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Bold with **asterisks** or __underscores__.
 ```
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Bold with **asterisks** or __underscores__.
 
 ```
-Combined emphasis with **asterisks and _underscores_**.
+Combined **bold and _bold italics_**.
 ```
-Combined emphasis with **asterisks and _underscores_**.
+Combined **bold and _bold italics_**.
 
 ```
-Strikethrough uses two tildes. ~~Scratch this.~~
+~~Strikethrough~~
 ```
-Strikethrough uses two tildes. ~~Scratch this.~~
+~~Strikethrough~~
 
 <br>
 
 ## Lists
 
-```
-1. First ordered list item
-2. Another item
-1. Actual numbers don't matter, just that it's a number
-4. And another item.
-```
-1. First ordered list item
-2. Another item
-1. Actual numbers don't matter, just that it's a number
-4. And another item.
+### Ordered
 
+```
+1. First item.
+2. Second item.
+1. First item again, or third?
+6. Actual numbers don't matter, it just has to be a number.
+```
+1. First item.
+2. Second item.
+1. First item again, or third?
+6. Actual numbers don't matter, it just has to be a number.
+
+### Unordered
 
 ```
 * Unordered list can use asterisks
@@ -129,11 +131,11 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 
 
 ```
-URLs and URLs in angle brackets will automatically get turned into links. 
+URLs and <URLs> will automatically become links.  
 http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
+example.com (but not on Hugo, for example).
 ```
-URLs and URLs in angle brackets will automatically get turned into links. 
+URLs and \<URLs\> will automatically become links.  
 http://www.example.com or <http://www.example.com> and sometimes 
 example.com (but not on Hugo, apparently).
 
@@ -160,13 +162,13 @@ Inline `code` has `back-ticks around` it.
 JavaScript
 ```
     ```javascript
-    var s = "JavaScript syntax highlighting";
-    alert(s);
+    var s = "Hello World!";
+    console.log(s);
     ```
 ```
 ```javascript
-    var s = "JavaScript syntax highlighting";
-    alert(s);
+    var s = "Hello World!";
+    console.log(s);
 ```
 
 <br>
@@ -174,13 +176,15 @@ JavaScript
 Python
 ```
     ```python
-    s = "Python syntax highlighting"
-    print s
+    def hello_world():
+        s = "Hello World!"
+    hello_world()
     ```
 ```
 ```python
-s = "Python syntax highlighting"
-print s
+def hello_world():
+    s = "Hello World!"
+hello_world()
 ```
 
 <br>
@@ -188,13 +192,13 @@ print s
 No language
 ```
     ```
-    No language indicated, so no syntax highlighting. 
-    But let's throw in a <b>tag</b>.
+    No language indicated, so no syntax highlighting.
+    Still looks nice.
     ```
 ```
 ```
-No language indicated, so no syntax highlighting. 
-But let's throw in a <b>tag</b>.
+No language indicated, so no syntax highlighting.
+Still looks nice.
 ```
 
 Pro tip: in order to escape the backtick ` use 4 spaces before your code.
@@ -208,16 +212,16 @@ Colons can be used to align columns.
 ```
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| the cake      | is a lie      | $1600 |
+| the answer    | 42            |   $12 |
+| more words    | hell yeah     |    $1 |
 ```
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| the cake      | is a lie      | $1600 |
+| the answer    | 42            |   $12 |
+| more words    | hell yeah     |    $1 |
 
 There must be at least 3 dashes separating each header cell.
 The outer pipes (|) are optional, and you don't need to make the 
@@ -240,12 +244,12 @@ Markdown | Less | Pretty
 ## Blockquotes
 
 ```
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+> Blockquotes look like something very important.
+> Here is more important text on a different line.
 ```
 
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+> Blockquotes look like something very important.
+> Here is more important text on a different line.
 
 
 ```
@@ -416,3 +420,9 @@ But again, this line is separated by a single newline, but the above paragraph h
 ```
 
 {{< tweet 1092548467409539072 >}}
+
+<br>
+
+Thanks to [Adam's markdown-here wiki](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), which was the inspiration for this post.
+
+<br>
