@@ -19,9 +19,11 @@ params:
   homeSubtitle: Software Engineer
 
   # Metadata mostly used in document's head
-  description: Homepage of Valinsky
+  title: Valinsky's homepage
+  description: Valinsky's homepage
   keywords: homepage, blog, science, informatics, development, programming, software
-
+  images:
+    - /images/triangle.jpg
   favicon:
     color:
       mask: "#252627"
@@ -41,10 +43,10 @@ params:
       url: https://www.linkedin.com/in/dumitruvaleriuvoicu/
 
   # date format
-  dateform: Jan 2, 2006
-  dateformShort: Jan 2
-  dateformNum: 2006-01-02
-  dateformNumTime: 2006-01-02 15:04 -0700
+  dateform: 2 Jan, 2006
+  dateformShort: 2 Jan
+  dateformNum: 02-01-2006
+  dateformNumTime: 02-01-2006
 
 menu:
   main:
