@@ -10,7 +10,7 @@ read delete
 if [[ $delete == 'y' ]] || [[ $delete == 'yes' ]]; then
 	printf "\e[91mDeleting public build!\n"
 	script_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
-	find $script_path/public/ -mindepth 1 -not -name 'CNAME' -not -name .git -delete
+	find $script_path/public/ -mindepth 1 -not -name 'CNAME' -not -name .git -not -name README.md -delete
 fi
 
 printf "\033[0;32mBuilding hugo site.\033[0m\n"
