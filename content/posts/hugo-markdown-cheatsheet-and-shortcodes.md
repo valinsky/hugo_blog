@@ -1,8 +1,8 @@
 ---
-title: Markdown Cheatsheet and Hugo Shortcodes
+title: Hugo Markdown Cheatsheet and Shortcodes
 date: 2019-11-14T20:34:55-05:00
 draft: false
-description: Markdown Cheatsheet and Hugo Shortcodes
+description: Hugo Markdown Cheatsheet and Shortcodes
 keywords: hugo, markdown, cheatsheet
 toc: false
 tags:
@@ -15,7 +15,7 @@ categories:
 ---
 
 If you're not a [Markdown](https://www.markdownguide.org/) expert yet, this post is for you.  
-I find myself Googling simple Markdown syntax everytime, so this post is for me as well. I thought I'd put together a simple and minimal cheatsheet I can reference anytime.  
+I find myself Googling simple Markdown syntax everytime, so this post is for me as well. Since I'll be writing a decent amount of Markdown for this website, I thought I'd put together a cheatsheet I can reference anytime.  
 
 I'm also adding some [Hugo shortcodes](https://gohugo.io/content-management/shortcodes) at the end as a bonus.  
 
