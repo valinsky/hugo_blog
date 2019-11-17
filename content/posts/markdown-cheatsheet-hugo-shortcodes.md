@@ -14,11 +14,12 @@ categories:
   - tutorial
 ---
 
-If you're not a [Markdown](https://www.markdownguide.org/) expert yet, this post is for you. I find myself Googling simple Markdown syntax everytime, so this post is for me as well. I thought I'd put together a simple and minimal cheatsheet I can reference anytime.  
+If you're not a [Markdown](https://www.markdownguide.org/) expert yet, this post is for you.  
+I find myself Googling simple Markdown syntax everytime, so this post is for me as well. I thought I'd put together a simple and minimal cheatsheet I can reference anytime.  
 
 I'm also adding some [Hugo shortcodes](https://gohugo.io/content-management/shortcodes) at the end as a bonus.  
-<br>
 
+<br>
 
 ## Markdown Cheatsheet
 
