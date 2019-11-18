@@ -38,7 +38,7 @@ That was not the case for me.
 
 <br>
 
-### I encountered a problem
+### Make sure you unpark your domain
 
 Even though your certificate is not issued, you can still access your website through HTTP.  
 Never do that! Never serve your website through HTTP. [Read why.](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https)
