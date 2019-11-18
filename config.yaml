@@ -7,9 +7,10 @@ author:
 googleAnalytics: UA-151935413-1
 # copyright: ''
 # paginate: 10
-
+enableRobotsTXT: true
+canonifyURLs: true
 # permalinks:
-#   posts: /posts/:year/:month/:title/
+#   posts: /blog/:title/
 
 params:
   # Directory name of your blog content (default is `content/posts`)
@@ -22,8 +23,10 @@ params:
   title: Valinsky's homepage
   description: Valinsky's homepage
   keywords: homepage, blog, science, informatics, development, programming, software
+
   images:
     - /images/triangle.jpg
+
   favicon:
     color:
       mask: "#252627"

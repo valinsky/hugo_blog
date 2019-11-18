@@ -6,6 +6,7 @@ description: Valinsky about page
 keywords: about, blog, post, valinsky
 toc: false
 tags:
+  - blog
   - about
   - valinsky
 categories:
