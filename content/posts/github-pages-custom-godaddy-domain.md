@@ -26,9 +26,9 @@ Add these settings.
 
 {{< figure src="/images/github_pages_godaddy_domain/github_pages_godaddy_config_good.png" title="GoDaddy DNS configuration" caption="GoDaddy DNS configuration" >}}
 
-My website is hosted on GitHub under the **\<valinsky.github.io\>** domain. You'll have to update the CNAME with your own **\<username\>.github.io** domain.
+My website is hosted on GitHub under the **valinsky.github.io** domain. You'll have to update the CNAME with your own **\<username\>.github.io** domain.
 
-After you configure your GitHub repository and GoDaddy DNS, you'll be greeted with this message in your GitHub respository's settings, right under the GitHub Pages section.
+You'll then be greeted with this message in your GitHub respository's settings, right under the GitHub Pages section.
 
 {{< figure src="/images/github_pages_godaddy_domain/github_pages_https_not_available.png" title="HTTPS Not Available" caption="HTTPS Not Available" >}}
 
