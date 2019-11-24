@@ -56,6 +56,8 @@ menu:
     - identifier: blog
       name: blog
       url: /posts
+      weight: -110
     - identifier: about
       name: about
       url: /about
+      weight: -100
