@@ -36,7 +36,7 @@ params:
       theme: "#252627"
 
   logo:
-    logoText: $ ./valinsky.sh
+    logoText: $ ./vali_blog.sh
     logoHomeLink: /
   
   social:
