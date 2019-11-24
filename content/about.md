@@ -13,6 +13,6 @@ categories:
   - about
 ---
 
-Hi, my name is Vali and I love the (free, open, uncensored and privacy focused) internet.
+Hi, my name is Vali and I love the [free, open, uncensored, secure and encrypted - no backdoor bs] internet.
 
 <br>
