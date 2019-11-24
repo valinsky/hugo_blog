@@ -1,7 +1,7 @@
 ---
 title: Quake 3's Fast Inverse Square Root
-date: 2019-11-23T19:24:58-05:00
-draft: true
+date: 2019-11-24T17:24:58-05:00
+draft: false
 description: Quake 3's Fast Inverse Square Root
 keywords: quake3, math, tutorial, blog
 url: /posts/quake3-fast-inverse-square-root/
@@ -18,13 +18,13 @@ tags:
 
 This is one of those magical unicorn algorithms.
 
-I was always intrigued by this one, because I played a lot of Quake as a kid, and because its elegant solution took a while for me to understand.
+I was always intrigued by this small piece of code, because it's such a unique and elegant solution to a common problem, and it's part of a game I played a lot as a kid. I did not understand it then, but I do now.
 
-This algorithm estimates the inverse square root, \\( 1 / \sqrt{number} \\), of a 32 bit floating point number. The solution is both fascinating and very fast.
+This algorithm estimates the inverse square root, \\( 1 / \sqrt{number} \\), of a positive 32 bit floating point number.
 
-Nowadays programmers might think to solve this problem by simply using C’s **sqrt()** function from the standard library and raising the result to the power **-1**.
+Nowadays programmers might think to solve this problem by simply importing a library and calling a function.
 
-But back in 1999 the Quake 3 Arena developers realized it was computationally expensive to calculate the inverse square root of a floating point number on a large scale.
+But back in 1999 the Quake 3 Arena developers realized it was computationally expensive to calculate the inverse square root of a floating point number on a large scale using traditional methods.
 
 One ninja developer came up with a solution that bypassed this limitation, and the [Fast inverse square root algorithm](https://en.wikipedia.org/wiki/Fast_inverse_square_root) was born.
 
@@ -56,7 +56,7 @@ $$ x\_{1} = x\_{0} - \\frac{f(x\_{0})}{f'(x\_{0})} $$
 
 If we want to find the value of \\( 1 / \sqrt{number} \\), we are looking for a solution to the equation \\( f(x) = x^{-2} - number \\). Take your best guess as to what the solution would be, and call it \\( x\_{0} \\). We are only interested in the positive solution.
 
-We already know what \\( f(x\_{0}) \\) looks like. It’s \\( x\_{0}^{-2} - number \\). For clarification, **number** is the number which we want to find the inverse square root for, the input parameter to our C function above.
+We now know that \\( f(x\_{0}) \\) is \\( x\_{0}^{-2} - number \\). For clarification, **number** is the number which we want to find the inverse square root for, the input parameter to our C function above.
 
 Our Newton method now becomes:
 
@@ -80,8 +80,22 @@ To quote Gary Tarolli, who (very modestly) takes partial credit for writing the 
 
 > Which actually is doing a floating point computation in integer - it took a long time to figure out how and why this works, and I can't remember the details anymore.
 
-It is not known how the exact value of the magic number **0x5f3759df** was determined. What is known is that, if this magical number is used, and the binary representation of our input shifted to the right by 1 is subtracted from it, it gives a good estimate.
+It is not known how the exact value of the magic number **0x5f3759df** was determined.  
+What is known is that, if we take our input number and divide it by 2 ([shift it to the right by 1](https://en.wikipedia.org/wiki/Bitwise_operations_in_C#Right_shift_%3E%3E)), and then subtract this number from the magic number, we get a really good first estimate.
 
-Then that estimate, which is \\( x_{0} \\) in our mathematical function above, is used in calculating the next approximation. The result is so close to the desired value, that a second iteration is not even needed anymore, as denoted by the commented code on line 13.
+To note, the input number is a `float`. In order to divide by 2 by shifting the bits to the right, it is converted into a `long` integer. Then it is converted back into a `float`.
+
+```c
+i  = * ( long * ) &y;                       // evil floating point bit level hacking
+i  = 0x5f3759df - ( i >> 1 );               // what the fuck? 
+y  = * ( float * ) &i;
+```
+
+This estimate, which is \\( x_{0} \\) in our mathematical function above, is then used in calculating the next approximation. The result is so close to the desired value, that a second iteration is not even needed anymore, as denoted by the commented code on line 13.
+
+```c
+    y  = y * ( threehalfs - ( x2 * y * y ) );   // 1st iteration
+//  y  = y * ( threehalfs - ( x2 * y * y ) );   // 2nd iteration, this can be removed
+```
 
 You can read more about the Fast inverse square root [here](https://www.beyond3d.com/content/articles/8) and [here](https://www.beyond3d.com/content/articles/15).
