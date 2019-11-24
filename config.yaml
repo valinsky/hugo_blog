@@ -1,6 +1,6 @@
 baseurl: /
 languageCode: en-us
-title: blogger.info("Welcome!")
+title: '[b]logger.info("Welcome!")'
 theme: hello-friend-ng
 author:
   name: Dumitru Valeriu Voicu
@@ -17,6 +17,8 @@ params:
   contentTypeName: posts
   # Default theme "light" or "dark"
   defaultTheme: dark
+
+  headTitle: Valinsky's Homepage
   homeSubtitle: Valinsky's Homepage
 
   # Metadata mostly used in document's head
