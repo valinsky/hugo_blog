@@ -1,6 +1,6 @@
 baseurl: /
 languageCode: en-us
-title: '[b]log.info("Welcome!")'
+title: Vali Voicu
 theme: hello-friend-ng
 author:
   name: Dumitru Valeriu Voicu
@@ -19,7 +19,7 @@ params:
   defaultTheme: dark
 
   headTitle: Valinsky's Homepage
-  homeSubtitle: Valinsky's Homepage
+  homeSubtitle: Software Engineer
 
   # Metadata mostly used in document's head
   title: Valinsky's homepage
