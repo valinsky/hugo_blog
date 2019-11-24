@@ -1,6 +1,6 @@
 baseurl: /
 languageCode: en-us
-title: '[b]logger.info("Welcome!")'
+title: '[b]log.info("Welcome!")'
 theme: hello-friend-ng
 author:
   name: Dumitru Valeriu Voicu
