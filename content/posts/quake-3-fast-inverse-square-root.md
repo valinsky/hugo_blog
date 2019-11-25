@@ -54,7 +54,7 @@ $$ x\_{1} = x\_{0} - \\frac{f(x\_{0})}{f'(x\_{0})} $$
 
 \\( x\_{0} \\) is an initial approximation, and the formula generates \\( x\_{1} \\) which is an even better approximation. The more iterations you perform, the better the approximation.
 
-If we want to find the value of \\( 1 / \sqrt{number} \\), we are looking for a solution to the equation \\( f(x) = x^{-2} - number \\). Take your best guess as to what the solution would be, and call it \\( x\_{0} \\). We are only interested in the positive solution.
+We want to find the value of \\( 1 / \sqrt{number} \\), so we are looking for a solution to the equation \\( f(x) = x^{-2} - number \\). Take your best guess as to what the solution would be, and call it \\( x\_{0} \\). We are only interested in the positive solution.
 
 We now know that \\( f(x\_{0}) \\) is \\( x\_{0}^{-2} - number \\). For clarification, **number** is the number which we want to find the inverse square root for, the input parameter to our C function above.
 
