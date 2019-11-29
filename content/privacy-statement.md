@@ -1,37 +1,44 @@
 ---
-title: valinsky.me Privacy Statement
+title: Privacy Statement
 date: 2019-11-18T19:14:55-05:00
-draft: true
-description: valinsky.me privacy stement
+draft: false
+description: privacy statement
 keywords: privacy, blog, post, valinsky
-url: /privacy/
+url: /privacy-statement
 toc: false
 tags:
   - blog
   - privacy
+  - github
   - google
   - analytics
 categories:
   - privacy
 ---
 
-## The Short Version
+
+## GitHub
 
 The code for this website is [publicly available on GitHub](https://github.com/valinsky/valinsky.github.io).
 
-We collect your statistics only with your consent. We only collect the minimum amount of personal information required to understand the purpose of your interactions with this website. This information as far as we are aware will not be sold to third parties.
+The website is hosted on [GitHub Pages](https://pages.github.com/).
 
-For more information read the below.
+[GitHub Pages privacy policy](https://help.github.com/en/github/site-policy/github-privacy-statement#github-pages)  
+
+> If you create a GitHub Pages website, it is your responsibility to post a privacy statement that accurately describes how you 
+> collect, use, and share personal information and other visitor information, and how you comply with applicable data privacy 
+> laws, rules, and regulations. Please note that GitHub may collect Technical Information from visitors to your GitHub Pages 
+> website, including logs of visitor IP addresses, to maintain the security and integrity of the website and service.
 
 
 ## Analytics
 
-We are using Google Analytics (GA) as a third party tracking service. We do not use it to track you individually or collect personal information about you. GA is used to collect information about website performance, how users of this website interact (navigate around) with it. This helps us understand better what is of most interest to the users and any issues that may be causing frustration.
+We only collect the minimum amount of personal information required to understand the purpose of your interactions with this website. This information as far as we are aware will not be sold to third parties.
 
-GA gathers certain simple, non-personally identifying information over time, such as your IP address, browser type, internet service provider, referring and exit pages, time stamp, and similar data about your use of this website.
+We are using Google Analytics as a third party tracking service. We do not use it to track you individually or collect personal information about you. Google Analytics is used to collect information about website performance and how users of this website interact with it. This helps us understand user interests better.
 
-We will not personally or allow any third party to the best of our understanding use GA to track users of this website individually, collect any personal information other than IP address.
+Google Analytics gathers certain simple, non-personally identifying information over time, such as your IP address, browser type, internet service provider, referring and exit pages, time stamp, and similar data about your use of this website.
 
-You can opt out of GA tracking by using a script blocking browser extension or add-on and simply disabling the GA script. Google also provides a browser [add-on to block GA](https://tools.google.com/dlpage/gaoptout).
+You can opt out of Google Analytics tracking by using a script blocking browser extension or add-on and simply disabling the Google Analytics script. Google also provides a browser [add-on to block GA](https://tools.google.com/dlpage/gaoptout).
 
-Googles Privacy Policy is [here](https://policies.google.com/technologies/partner-sites).
+[Googles Privacy Policy](https://policies.google.com/technologies/partner-sites)
