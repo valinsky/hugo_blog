@@ -38,7 +38,7 @@ Learn how to plan your activities and how to increase your flexibility and adapt
 
 Your goal of being healthy and having an athletes body will not be impacted by you not going to the gym today as planned. Use your time wisely. Let today be a resting day, see where your current inspiration takes you, and tomorrow go kill it at the gym.
 
-I created this website long before I actually started publishing anything. I didn't do it for a while because I didn't feel like it was the right time to start writing, even though I wanted to create a blog for a long time. I could see thoughts of guilt and stress trying to creep up into my mind (your website is ready and you didn't write anything yet! looser). But I did not give in to those feelings. You have to keep that [monkey mind](https://www.youtube.com/watch?v=4PkrhH-bkpk) in check.
+I created this website long before I actually started publishing anything. I didn't do it for a while because I didn't feel like it was the right time to start writing, even though I wanted to create a blog for a long time. I didn't force it. I could see thoughts of guilt and stress trying to creep up into my mind (your website is ready and you didn't write anything yet! looser). But I did not give in to those feelings. You have to keep that [monkey mind](https://www.youtube.com/watch?v=4PkrhH-bkpk) in check.
 
 Of course, every situation is different and you may be put in delicate situations where you need to think a bit more about what to do next. Just don't let plans intervene with your growth. Where there is a will there is a way.
 
