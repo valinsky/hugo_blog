@@ -40,6 +40,8 @@ Your goal is to be healthy, to break your boundaries and to have a killer body, 
 
 Another situation may arise where you're currently reading book X, and your friend talks about book Y which peaks your interest. Don't wait to finish X first. Fulfil your curiosity. Start reading Y, and if it blows your mind, finish it. Or don't. Choice is yours. You can return to X anytime.
 
+Or trying to do to many things in a short amount of time. Don't let that be another cause of stress. Use your mind to prioritize, and whatever you do, be fully engaged in it and do it right.
+
 Live in the moment. Be present. Learn. Adapt.
 
 I created this website long before I actually started writing anything. I didn't feel like it was the right time yet, even though I wanted to have my own blog for a long time. I didn't force it. I could see thoughts of guilt and stress trying to creep up into my mind (your website is ready and you didn't write anything yet! looser). But I did not give in to those feelings. You have to keep that [monkey mind](https://www.youtube.com/watch?v=4PkrhH-bkpk) in check.
