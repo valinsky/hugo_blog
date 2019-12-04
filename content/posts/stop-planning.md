@@ -51,7 +51,7 @@ If your friend inspired you to read Y, don't wait to finish X first. Fulfill you
 
 Example 3: Trying to do to many things in a short amount of time. That can be a big cause for stress.  
 Use your mind to grow, not to get trapped in whatever fantasies your past self created - *I've planned to do all these things today, if I don't do them I will feel bad and useless.*  
-Prioritize, and whatever you do, be fully engaged in it and do it right.
+Prioritize, be fully engaged in what you choose to do and do it right.
 
 [Live in the moment. Be present. Learn. Adapt.](https://www.youtube.com/watch?v=cJMwBwFj5nQ)
 
