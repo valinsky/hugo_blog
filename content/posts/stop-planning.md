@@ -60,7 +60,7 @@ I think that we need to create personal standards for ourselves, to grow and ide
 
 With this in mind, the answer I found to the above dilemma is to let today be a resting day, adapt by creating a short term goal of seeing where my current inspiration takes me, and tomorrow go and kill it at the gym. I may not even make it to the gym tomorrow, who knows. Either way, I won't loose track of the long term goal.
 
-The realization that you always have a choice and that you're not bound by your own stories feels like that huge methaforical weight being lifted of off your chest. Feels like freedom.
+The realization that you always have a choice and that you're not bound by your own stories feels like that huge metaphorical weight being lifted of off your chest. Feels like freedom.
 
 ### Using the tool
 
