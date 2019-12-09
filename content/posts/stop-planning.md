@@ -58,7 +58,7 @@ My long term goal is to be fit and healthy, not to conform to the fictional ment
 
 I think that we need to create personal standards for ourselves, to grow and identify with these standards, and when the time is right, to break free from them. **Kill your master.**
 
-With this in mind, the answer I found to the above dilemma is to let today be a resting day, adapt by creating a short term goal of seeing where my current inspiration takes me, and tomorrow go and kill it at the gym. I may not even make it to the gym tomorrow, who knows. Either way, I won't loose track of the long term goal.
+With this in mind, the answer I found to the above dilemma is to let today be a resting day, adapt by creating a short term goal of seeing where my current inspiration takes me, and tomorrow go and kill it at the gym. I may not even make it to the gym tomorrow, who knows. Maybe do some pushups at home. Either way, I won't loose track of the long term goal.
 
 The realization that you always have a choice and that you're not bound by your own stories feels like that huge metaphorical weight being lifted of off your chest. Feels like freedom.
 
@@ -67,7 +67,7 @@ The realization that you always have a choice and that you're not bound by your 
 I used to try and finish every book I started, even if I didn't like it that much. Even if it took months, or years. Sometimes it started feeling like chore.  
 Now I can easily start reading a new book while I'm reading another book. Sometimes I bounce between 4 or 5 books. When I want to read about a particular subject, I find the book about that and continue where I left off. Or reread a chapter. It's not even about finshing the book anymore, it's about understanding concepts.
 
-Planning doesn't mean to always stick to whatever stories your mind created in the past. I can come back to reading book X at anytime.
+Planning doesn't mean to always stick to whatever stories your mind created in the past. I can come back to reading book X anytime.
 
 Another example would be when we try to do to many things in a short amount of time. That can be a big cause for stress.  
 Without understanding how my mind worked I was easily trapped in self guilt because of the fantasies my past self created - *I've planned to do all these things today, if I don't do them I will feel bad and useless.*  
