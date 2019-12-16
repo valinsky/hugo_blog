@@ -20,26 +20,39 @@ Companies started employing intelligent and invasive tracking methods to gather 
 
 #### Free apps
 
-Companies may offer top notch web and mobile apps to customers *for free*. Google, Facebook, Instagram, Twitter are some of the obvious examples. Everything you do while using these apps is recorded and saved forever in a centralized database. The saved data may be used for targeted ads, tracking you online, profiling, [influencing your political views](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal) etc.
+Companies may offer top notch web and mobile apps to customers *for free*. Google, Facebook, Instagram, Twitter are some of the obvious examples. Everything you do while using these apps is recorded and saved in a centralized database forever. The saved data may be used for targeted ads, tracking your online activity, [profiling you](https://www.encyclopedia.com/books/educational-magazines/online-profiling), [influencing your political views](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal) etc.
 
 #### Cookies
 
-When you visit a website, a [cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies) with a unique identifier is set on your device. Next time you visit the same website, that cookie is sent in the request and the website knows that you visited it before. While cookies do offer some benefits, they are heavily used for online tracking.
+When you visit a website, a [cookie](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies) with a unique identifier is set on your device. Next time you visit the same website, that cookie is sent in the request and the website knows that you visited it before. While cookies do offer some benefits, like session management, they are heavily used for tracking and profiling.
 
-#### Online fingerprinting
+#### Device fingerprinting
 
-When you're online, website and apps have access to a wide range of properties specific to your device, like your Operating System, you systems language, systems resolution, installed fonts, screen size, browser version, and a lot of other things.
+When you're online, websites and apps have access to a wide range of properties specific to your device, like your OS version, system language, system resolution, installed fonts, screen size, browser version, and many more.
 
-Your [online fingerprint](https://pixelprivacy.com/resources/browser-fingerprinting/) is the unique set of these properties.
+Your [device fingerprint](https://pixelprivacy.com/resources/browser-fingerprinting/) is the unique set of these properties.
 
-You might be the only person who visits a particular website from a particular device set to a particular language, with a particular screen size, and using a particular web browser version. Your identity can be easily revealed based on this data, without you revealing any personal information.  
+You might be the only person who visits a particular website from a particular device set to a particular language, with a particular screen size, and using a particular web browser version. Your identity can be easily revealed based on this data, without you revealing any personal information.
+
+You can check your device fingerprint [here](https://panopticlick.eff.org/).  
 Check out [this answer](https://meta.stackexchange.com/a/331963) on Stack Exchange for more info.
+
+### First party and third party trackers
+
+First party trackers are trackers employed by the website you visit. Third party trackers are trackers employed by entities other than the website you visit. If there is a third party tracker on a web page, that tracker has the ability to invite any number of other third party trackers.
+
+For example, if you go to *nytimes.com*, NY Times will log your visit, know which article you read, etc.
+
+We can see that NY Times employes other third party trackers to gather your personal information as well, namely Google and Amazon trackers.
+
+{{< figure src="/images/privacy_build/nytimes_trackers.png" title="NY Times Online Trackers" caption="NY Times Online Trackers" position="center" >}}
 
 #### Promotions
 
-I'm seeing more and more companies trying to get my phone number or my email through *free* gift cards, coupons etc. Trader Joe's was giving me a $5 dollars coupon if I signed up for their offer using my phone number. GTFO TJ
+I'm seeing more and more companies trying to get my phone number or my email through *free* gift cards, coupons etc. Trader Joe's was giving me a $5 dollars coupon if I signed up for their offer using my phone number.  
+They can then use my email or phone number to match it to the profile they have on me.
 
-<br>
+#### Only scratching the surface
 
 These are just a few examples of different tracking methods. Companies spend big budgets on figuring out better ways to track us. The more data they have on us, the more money they make, the more power and influence they have.
 
@@ -47,15 +60,17 @@ For a deep dive into how exactly our data is being gathered and used by corporat
 
 ### Encryption is our friend
 
-Neither big corporations nor governments can crack **properly implemented** encryption. No back door bs.
+>In this way, people can oppose their will to that of a fully mobilized superpower and win. Encryption is an embodiment of the laws of physics, and it does not listen to the bluster of states, even transnational surveillance dystopias.
 
-[Zero-knowledge proof](https://en.m.wikipedia.org/wiki/Zero-knowledge_proof) is a type of encryption where data is encrypted before it is sent to servers, and the key to decrypt the data is only available to the user. The key is never stored on company servers. Nobody, not even companies, can decrypt the data. Only the user.
+* Julian Assange in [Cypherpunks: Freedom and the Future of the Internet](https://en.wikipedia.org/wiki/Cypherpunks_(book))
 
-The use of open source, end to end encrypted, and even decentralized applications has seen a great increase in the past couple of years.
+Neither big corporations nor governments can crack **properly implemented** encryption.
+
+I'm a fan of [zero-knowledge proof](https://en.wikipedia.org/wiki/Zero-knowledge_proof) encryption, where data is encrypted before it is sent to servers, and the key to decrypt the data is only available to the user. The key is never stored on company servers. Nobody, not even companies, can decrypt the data. Only the user.
 
 ### Privacy build
 
-I'm going to list the apps that I started using on a regular basis that promote encryption and privacy. While this list is by no means exhaustive, and while better alternatives may exist, it can serve as an intro into the world of privacy focused apps.
+I'm going to list the apps that I started using that promote encryption and privacy. While this list is by no means exhaustive, and while better alternatives may exist, it can serve as an intro into the world of privacy focused apps.
 
 #### Browser and extensions
 tor fun fact, youll be greeted with this message if you maximize your browser window

@@ -21,17 +21,17 @@ If you bought the domain on GoDaddy, I'm going to show you the exact GoDaddy DNS
 
 Go to your [godaddy.com](https://godaddy.com) domain, and find the *Manage DNS* option.
 
-{{< figure src="/images/github_pages_godaddy_domain/manage_dns_setting.png" title="GoDaddy Manage DNS" caption="GoDaddy Manage DNS" >}}
+{{< figure src="/images/github_pages_godaddy_domain/manage_dns_setting.png" title="GoDaddy Manage DNS" caption="GoDaddy Manage DNS" position="center" >}}
 
 Add these settings.
 
-{{< figure src="/images/github_pages_godaddy_domain/github_pages_godaddy_config_good.png" title="GoDaddy DNS configuration" caption="GoDaddy DNS configuration" >}}
+{{< figure src="/images/github_pages_godaddy_domain/github_pages_godaddy_config_good.png" title="GoDaddy DNS configuration" caption="GoDaddy DNS configuration" position="center" >}}
 
 My website is hosted on GitHub under the **valinsky.github.io** domain. You'll have to update the CNAME with your own **\<username\>.github.io** domain.
 
 You'll then be greeted with this message in your GitHub respository's settings, right under the GitHub Pages section.
 
-{{< figure src="/images/github_pages_godaddy_domain/github_pages_https_not_available.png" title="HTTPS Not Available" caption="HTTPS Not Available" >}}
+{{< figure src="/images/github_pages_godaddy_domain/github_pages_https_not_available.png" title="HTTPS Not Available" caption="HTTPS Not Available" position="center" >}}
 
 Like the message says, you have to wait *24 hours* for the internet to magically issue an [HTTPS SSL certificate](https://www.digicert.com/ssl-certificate/) for you.
 
@@ -50,13 +50,13 @@ I soon realized the problem was with GoDaddy's DNS configuration.
 
 My initial configuration looked like this.
 
-{{< figure src="/images/github_pages_godaddy_domain/github_pages_godaddy_config_bad.png" title="GoDaddy DNS parked configuration" caption="GoDaddy DNS parked configuration" >}}
+{{< figure src="/images/github_pages_godaddy_domain/github_pages_godaddy_config_bad.png" title="GoDaddy DNS parked configuration" caption="GoDaddy DNS parked configuration" position="center" >}}
 
 Those two DNS entries were setup by GoDaddy, and I didn't pay much attention to them initially. If you see these in your own DNS configuration, be sure to remove them, or else you'll end up with a [parked domain](https://en.wikipedia.org/wiki/Domain_parking) that won't work with your GitHub Pages setup.
 
 After I removed those entries, a few hours later my HTTPS SSL certificate was issued and I was able to activate it.
 
-{{< figure src="/images/github_pages_godaddy_domain/activate_https.png" title="HTTPS Enforced" caption="HTTPS Enforced" >}}
+{{< figure src="/images/github_pages_godaddy_domain/activate_https.png" title="HTTPS Enforced" caption="HTTPS Enforced" position="center" >}}
 
 And that's it.
 
