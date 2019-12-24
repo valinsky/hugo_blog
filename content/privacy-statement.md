@@ -6,6 +6,8 @@ description: privacy statement
 keywords: privacy, blog, post, valinsky
 url: /privacy-statement
 toc: false
+images:
+  - /images/triangle.jpg
 tags:
   - blog
   - privacy

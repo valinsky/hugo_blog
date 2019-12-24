@@ -7,8 +7,10 @@ keywords: privacy, blog
 url: /posts/privacy-build-2020/
 toc: false
 images:
+  - /images/triangle.jpg
 tags:
   - privacy
+  - tracking
   - blog
 ---
 

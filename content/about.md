@@ -5,6 +5,8 @@ draft: false
 description: Valinsky about page
 keywords: about, blog, post, valinsky
 toc: false
+images:
+  - /images/triangle.jpg
 tags:
   - blog
   - about

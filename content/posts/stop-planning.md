@@ -7,6 +7,7 @@ keywords: progress, blog, life
 url: /posts/stop-over-planning/
 toc: false
 images:
+  - /images/triangle.jpg
 tags:
   - progress
   - blog

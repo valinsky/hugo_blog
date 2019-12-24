@@ -6,6 +6,8 @@ description: How to configure your Github Pages website with your custom Godaddy
 keywords: godaddy, github, https, tutorial, blog
 url: /posts/github-pages-with-custom-godaddy-domain/
 toc: false
+images:
+  - /images/triangle.jpg
 tags:
   - godaddy
   - github
