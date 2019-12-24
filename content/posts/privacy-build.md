@@ -1,7 +1,7 @@
 ---
 title: Privacy Build 2020
-date: 2019-11-14T23:04:35-05:00
-draft: true
+date: 2019-12-22T00:04:35-05:00
+draft: false
 description: Privacy Build 2020
 keywords: privacy, blog
 url: /posts/privacy-build-2020/
@@ -12,17 +12,19 @@ tags:
   - blog
 ---
 
-Privacy was a hot topic in the last decade. And for good reason. A lot of companies are thriving based on the business model of gathering as much data as they can from their customers and using that data to gain influence and to generate profit.
+Privacy was a hot topic in the last decade. And for good reason. Corporations are thriving based on the business model of gathering as much data as they can from their customers and using that data to gain influence and to generate profit.
 
-Companies started employing intelligent and invasive tracking methods to gather user data and use intelligent word play to hide the underlying techniques used. A lot of people have no idea how their data is being used, or that they themselves have become a product.
+Companies started employing intelligent and invasive tracking methods to gather as much user data as possible while hiding the underlying techniques implemented through intelligent word play. A lot of people have no idea how their data is being used, or that they themselves have become a product.
 
 ### Online tracking has become an art
 
 #### Free apps
 
-Companies may offer top notch web and mobile apps to customers *for free*. Google, Facebook, Instagram, Twitter are some of the obvious examples. Everything you do while using these apps is recorded and saved in a centralized database forever. The saved data may be used for targeted ads, tracking your online activity, [profiling you](https://www.encyclopedia.com/books/educational-magazines/online-profiling), [influencing your political views](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal) etc.
+Companies may offer top notch web and mobile apps to customers *for free*. Google, Facebook, Instagram, Twitter are some of the obvious examples. Everything you do while using these apps is recorded and saved in a centralized database forever. The saved data may be used for targeted ads, tracking your online activity, [profiling you](https://www.encyclopedia.com/books/educational-magazines/online-profiling), [influencing your political views](https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election) etc.
 
 {{< tweet 977559925680467968 >}}
+
+Today I saw that Spotify is giving away a *free* Google Home Mini to premium users...
 
 #### Cookies
 
@@ -47,7 +49,7 @@ First party trackers are trackers employed by the website you visit. Third party
 
 For example, if you go to [nytimes.com](https://www.nytimes.com/), NY Times will log your visit, know which article you read, etc.
 
-But... we can see that NY Times employes other third party trackers to gather your personal information as well, namely Google and Amazon trackers.
+But... we can see that NY Times employs other third party trackers to gather your personal information as well, namely Google and Amazon trackers.
 
 {{< figure src="/images/privacy_build/nytimes_trackers.png" title="NY Times Online Trackers" caption="NY Times Online Trackers" position="center" >}}
 
@@ -58,7 +60,7 @@ They can then use my email or phone number to match it to the profile they have 
 
 #### Only scratching the surface
 
-These are just a few examples of different tracking methods. Companies spend big budgets on figuring out better ways to track us. The more data they have on us, the more money they make, the more power and influence they have.
+These are just a few examples of different tracking methods. Corporations spend big budgets on figuring out better ways to track us. The more data they have on us, the more money they make, the more power and influence they have.
 
 For a deep dive into how exactly our data is being gathered and used by corporations and governments, I highly recommend reading [Permanent Record](https://en.wikipedia.org/wiki/Permanent_Record_(autobiography)) by Edward Snowden.
 
@@ -72,11 +74,11 @@ For a deep dive into how exactly our data is being gathered and used by corporat
 
 Neither big corporations nor governments can crack **properly implemented** encryption.
 
-I'm a fan of [zero-knowledge proof](https://en.wikipedia.org/wiki/Zero-knowledge_proof) encryption, where data is encrypted before it is sent to servers, and the key to decrypt the data is only available to the user. The key is never stored on company servers. Nobody, not even companies, can decrypt the data. Only the user can.
+I'm a fan of [zero-knowledge proof](https://en.wikipedia.org/wiki/Zero-knowledge_proof) encryption, where data is encrypted before it is sent to servers, and the key to decrypt the data is only available to the user. The key is never stored on corporate servers. Nobody, not even companies, can decrypt the data. Only the user can.
 
 ### Privacy build
 
-I'm going to list the apps that I started using that promote encryption and privacy. While this list is by no means exhaustive, and while better alternatives may exist, it can serve as an intro into the world of privacy focused apps.
+I will list some of the apps I started using that promote encryption and privacy. While this list is by no means exhaustive, and while better alternatives may exist, it can serve as an intro into the world of privacy focused apps.
 
 The first thing I recommend doing after you install a new app is to update the privacy settings accorgindly.
 
@@ -99,10 +101,12 @@ Fun fact, if you maximize the Tor Browser, you'll be greeted with this message.
 
 Remember that online fingerprint we were talking about before...
 
+On my smartphone I also use the [DuckDuckGo browser](https://duckduckgo.com/app).
+
 #### Instant Messaging
 
 [Signal](https://www.signal.org/). Open source, minimalist, E2EE.  
-The argument against Signal is that your phone number is required. I think it's a fair argument. But we are diving into anonymity here. Privacy and anonymity are two separate things that need to be approached differently.
+The argument against Signal is that your phone number is required. I think it's a fair argument. But we are diving into anonymity here. Privacy and anonymity are two separate things that should be approached differently.
 
 WhatsApp uses the Signal protocol as its encryption algorithm. I would never recommend WhatsApp as a secure and private messaging app though. WhatsApp is owned by Facebook. Facebook wants all your data, your friends data, and your friends friends data.
 
@@ -114,7 +118,7 @@ If WhatsApp is encrypted, then how can Facebook get my data? Fair question. They
 
 <br>
 
-Be mindfull of metadata when using the internet. Encryption can't be broken for now, but a lot of apps leave beind a huge trail of metadata.
+Be mindful of metadata when using the internet. Encryption can't be broken, but a lot of apps leave beind a huge trail of metadata.
 
 #### Email
 
@@ -124,11 +128,13 @@ Be mindfull of metadata when using the internet. Encryption can't be broken for 
 
 Simple, encrypted, open source.
 
+There are some differences between the two. For example ProtonMail doesn't encrypt the email subject, while Tutanota does.
+
 #### Search Engine
 
 [DuckDuckGo](https://duckduckgo.com/)
 
-[StartPage](https://www.startpage.com/), anonimity built on top of Google search. Sounds like a good idea on paper...
+[StartPage](https://www.startpage.com/), anonymity built on top of Google search. Sounds like a good idea on paper...
 
 #### Notes
 
@@ -138,7 +144,7 @@ I think note taking apps are our most personal apps. We may write down our deepe
 
 #### Password Manager
 
-[Dashlane](https://www.dashlane.com/). I know I'm lacking behind here. While I like the app and all its features, it's not open source. I'm looking for an alternative.
+[Dashlane](https://www.dashlane.com/). I know I'm lacking behind here. While I do like the app and its features, it's not open source. I'm looking for an alternative.
 
 #### VPN
 
@@ -146,18 +152,33 @@ I tried a couple of them and they're all *fine*, although I hold the view that [
 
 #### OS
 
-[Tails OS](https://tails.boum.org/). Private and anonymous OS built on top of TOR. It deletes your entire session at shutdown. Fits on a flash drive.
+I do most of my work on a MacBook Pro, but there are other OSes that focus on privacy.
+
+[Tails OS](https://tails.boum.org/). Private and anonymous OS built on top of Tor. It deletes your entire session at shutdown. Fits on a flash drive.
+
+I heard good things about [Qubes OS](https://www.qubes-os.org/) but I have yet to try it out.
+
+#### Stop using native apps
+
+Smartphones are tracking machines, which makes native apps tracking apps. I stopped using most native apps. A browser, like Firefox and DuckDuckGo, with privacy settings cranked up and regular cookie deletion is good enough.
+
+This approach won't stop your smartphone from tracking you though. It tracks you all the time! See [this](https://youtu.be/VFns39RXPrU?t=3) and [this](https://www.nytimes.com/interactive/2019/12/21/opinion/location-data-democracy-protests.html).
 
 #### Awareness
 
 The views on privacy and privacy focused apps are changing rapidly. We ended up in a situation where our private life means big money for some corporation or for the government. We are being fooled into thinking otherwise.
 
-One might think that Google is a tech company. It's not. [It's an ad company](https://twitter.com/dhh/status/1205582897593430017). Most of its revenue comes from payed or targeted ads.
+One might think that Google is a tech company. It's not. [It's an ad company](https://www.investopedia.com/articles/investing/020515/business-google.asp). Most of its revenue comes from paid or targeted ads.
 
-Government entities keep pushing for encryption back doors, few examples being [Apple](https://en.wikipedia.org/wiki/FBI%E2%80%93Apple_encryption_dispute) and [Facebook](https://www.forbes.com/sites/zakdoffman/2019/09/29/whatsapp-backdoorwill-facebook-be-forced-to-break-message-encryption-as-reported/#3007f19c1b38).  
-A back door doesn't mean that the government or the company can view your messages, it means that **anyone** that has access to the master key can view your messages. It's a personal, security and privacy risk.
+One might think that Facebook is a social media website. It's not. [It's an ad company](https://www.investopedia.com/ask/answers/120114/how-does-facebook-fb-make-money.asp). Facebook primarily makes money by selling advertising space on its platform.
 
-I'm a strong believer in the right for privacy and I support anyone who builds applications having that idea as their foundation.
+Government entities keep pushing for encryption back doors, few examples being [Apple](https://en.wikipedia.org/wiki/FBI%E2%80%93Apple_encryption_dispute) and [Facebook](https://www.forbes.com/sites/zakdoffman/2019/09/29/whatsapp-backdoorwill-facebook-be-forced-to-break-message-encryption-as-reported/#3007f19c1b38). A back door doesn't mean that the government or the company can view your messages, it means that **anyone** that has access to the master key can view your messages. It's a personal, security and privacy risk.
+
+Our private life, our daily activities, our thoughts and emotions, our likes and dislikes, our political views, our relationships, our own identity is being used against us. Advanced machine learning algorithms in conjunction with our data are being used to influence our behaviour and to make us think and feel in a certain way, in order to conform to big corporations and government agendas. This is next level brain washing. It's not like old TV propaganda. Back then everyone would watch the same generic ads and news. Now it's customized based on individual behaviour. It's personal.
+
+We're being played.
+
+I'm a strong believer in the right for privacy and I support companies and individuals who build applications having privacy as a core foundation.
 
 > "Arguing that you don't care about the right to privacy because you have nothing to hide is no 
 > different than saying you don't care about free speech because you have nothing to say." 
