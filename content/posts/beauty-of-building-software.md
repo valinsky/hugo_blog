@@ -56,6 +56,8 @@ After many happy, intense and some frustrating moments, I ended up writing the l
 That was one of many moments where I reminded myself that building software is beautiful.  
 It's an art. 
 
-As engineers we deal with errors and bugs on the regular. We use a lot of brain power trying to understand problems and to find the best solutions for them. Confusion and frustration are part of the job, but with time a good engineer will know how to handle these emotions and will learn how to be calm and collected under stress. These qualities can serve you greatly in the real world.
+As engineers we deal with errors, bugs and new features on the regular. We use a lot of brain power trying to understand problems and to find the best solutions for them. Confusion and frustration are part of the job, but with time a good engineer will know how to handle these emotions and will learn how to be calm and collected under stress. These qualities can serve you greatly in the real world.
 
-And after all that mental effort, we're rewarded with this magical thing that does what it's supposed to do because we told it to do it that way. It's a beautiful creative process.
+We also spend a good amount of time on research. We check if other people have encountered the same problem, read documentations, comments, code. It can become exhausting.
+
+But after all that mental effort, we're rewarded with this magical thing that does what it's supposed to do because we told it to do it that way. It's a beautiful creative process.
