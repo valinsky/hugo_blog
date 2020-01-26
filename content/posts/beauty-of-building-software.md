@@ -1,7 +1,7 @@
 ---
 title: The Beauty of Building Software
 date: 2020-01-25T19:39:43-05:00
-draft: true
+draft: false
 description: the beauty of building software
 keywords: software, blog
 url: /posts/the-beauty-of-building-software
@@ -45,7 +45,7 @@ If you don't know what all of this is, don't worry about it too much. The idea i
 
 As I was writing the jobs, the pipeline was slowly coming together and I would often push the code in order to test the changes. This part was as intense as it was exciting.
 
-I could see the pipeline progress in the GitLab UI, and every time I would make a job pass, in that moment, I was the happiest man alive. I had a visual feedback of my progress. With each job succeeding, I could my progress increasing (by 16.6%).
+I could see the pipeline running in the GitLab UI, and every time I would make a job pass, in that moment, I was the happiest man alive.
 
 But during the time when a job would run, not knowing if it will actually pass this time or fail again, I was on the edge of my seat. I realized that sometimes I would involuntarily hold my breath in this situation.
 
@@ -58,4 +58,4 @@ It's an art.
 
 As engineers we deal with errors and bugs on the regular. We use a lot of brain power trying to understand problems and to find the best solutions for them. Confusion and frustration are part of the job, but with time a good engineer will know how to handle these emotions and will learn how to be calm and collected under stress. These qualities can serve you greatly in the real world.
 
-And after all that mental effort, we're rewarded with this magical thing that does what it's supposed to do because we told it to it that way. It's a beautiful creative process.
+And after all that mental effort, we're rewarded with this magical thing that does what it's supposed to do because we told it to do it that way. It's a beautiful creative process.
