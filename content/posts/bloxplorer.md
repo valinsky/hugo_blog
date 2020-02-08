@@ -117,4 +117,6 @@ The full API documentation is available [here](https://valinsky.me/bloxplorer/in
 
 With Bloxplorer I saw an opportunity to help the Bitcoin ecosystem while also getting my foot through the door of open source software and I'm very happy with the end result. At the time of this writing Bloxplorer was downloaded [more than 4k times](https://pepy.tech/project/bloxplorer/), which I think is amazing.
 
-Feel free to play around with it and if interesented, I welcome you to submit PRs or to open issues on [GitHub](https://github.com/valinsky/bloxplorer).
+I will be actively maintaining the package, based on the Esplora API changes, and any future improvements I see as being useful.
+
+Feel free to `pip install` the package from [PyPi](https://pypi.org/project/bloxplorer/) and to play around with it and if interesented, I welcome you to submit PRs or to open issues on [GitHub](https://github.com/valinsky/bloxplorer).
