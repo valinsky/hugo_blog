@@ -7,11 +7,13 @@ keywords: privacy, blog
 url: /posts/privacy-build-2020/
 toc: false
 images:
-  - /images/triangle.jpg
+  - /images/privacy_build/privacy.jpg
+header:
+  image: /images/privacy_build/privacy.jpg
+image_preview: /images/privacy_build/privacy.jpg
 tags:
   - privacy
   - tracking
-  - blog
 ---
 
 Privacy was a hot topic in the last decade. And for good reason. Corporations are thriving based on the business model of gathering as much data as they can from their customers and using that data to gain influence and to generate profit.

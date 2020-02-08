@@ -7,13 +7,11 @@ keywords: godaddy, github, https, tutorial, blog
 url: /posts/github-pages-with-custom-godaddy-domain/
 toc: false
 images:
-  - /images/triangle.jpg
+  - /images/github_pages_godaddy_domain/github_pages.png
 tags:
   - godaddy
   - github
-  - https
   - tutorial
-  - blog
 categories:
   - tutorial
 ---

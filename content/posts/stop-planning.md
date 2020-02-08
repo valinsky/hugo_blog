@@ -7,7 +7,7 @@ keywords: progress, blog, life
 url: /posts/stop-over-planning/
 toc: false
 images:
-  - /images/triangle.jpg
+  - /images/stop_overplanning/overplanning.jpg
 tags:
   - progress
   - blog

@@ -6,10 +6,10 @@ description: the beauty of building software
 keywords: software, blog
 url: /posts/the-beauty-of-building-software
 toc: false
-# images:
+images:
+  - /images/software_is_beautiful/colors.png
 tags:
   - software
-  - blog
 ---
 
 One of my latest adventures in the world of software was to update the CI/CD for one of our repositories. The plan was to move away from using Jenkins in favor of a full CI/CD GitLab pipeline.

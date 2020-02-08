@@ -9,7 +9,7 @@ customJS:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 toc: false
 images:
-  - /images/triangle.jpg
+  - /images/quake3/quake3.jpg
 tags:
   - quake3
   - math
