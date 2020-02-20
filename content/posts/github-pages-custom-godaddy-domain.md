@@ -9,8 +9,6 @@ toc: false
 images:
   - /images/github_pages_godaddy_domain/github_pages.png
 tags:
-  - godaddy
-  - github
   - tutorial
 categories:
   - tutorial

@@ -7,11 +7,7 @@ keywords: markdown, cheatsheet, tutorial, hugo, blog
 url: /posts/hugo-markdown-cheatsheet-and-shortcodes/
 toc: false
 tags:
-  - markdown
-  - cheatsheet
   - tutorial
-  - hugo
-  - blog
 categories:
   - tutorial
 ---

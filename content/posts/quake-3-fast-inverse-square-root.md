@@ -11,10 +11,7 @@ toc: false
 images:
   - /images/quake3/quake3.jpg
 tags:
-  - quake3
-  - math
   - tutorial
-  - blog
 ---
 
 This is one of those magical unicorn algorithms.

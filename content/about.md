@@ -8,13 +8,14 @@ toc: false
 images:
   - /images/triangle.jpg
 tags:
-  - blog
   - about
   - valinsky
 categories:
   - about
 ---
 
-Hi, my name is Vali and I love the [free, open, uncensored, secure and E2EE] internet.
+Hello, my name is Vali and I am a netizen.
+
+I love the **free**, **open**, **uncensored**, **secure** and **E2EE** internet.
 
 <br>

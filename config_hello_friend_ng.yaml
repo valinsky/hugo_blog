@@ -5,7 +5,7 @@ theme: hello-friend-ng
 author:
   name: Dumitru Valeriu Voicu
 googleAnalytics: UA-151935413-1
-# copyright: ''
+copyright: ''
 # paginate: 10
 enableRobotsTXT: true
 canonifyURLs: true
@@ -19,7 +19,7 @@ params:
   defaultTheme: dark
 
   headTitle: Valinsky's Homepage
-  homeSubtitle: Think • Code • Encrypt • Decentralize
+  homeSubtitle: Software Engineer
 
   # Metadata mostly used in document's head
   title: Valinsky's homepage
@@ -36,7 +36,7 @@ params:
       theme: "#252627"
 
   logo:
-    logoText: carpe noctem
+    logoText: $ ./vali_blog.sh
     logoHomeLink: /
   
   social:

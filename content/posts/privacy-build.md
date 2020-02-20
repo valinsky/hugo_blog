@@ -13,7 +13,7 @@ header:
 image_preview: /images/privacy_build/privacy.jpg
 tags:
   - privacy
-  - tracking
+  - tutorial
 ---
 
 Privacy was a hot topic in the last decade. And for good reason. Corporations are thriving based on the business model of gathering as much data as they can from their customers and using that data to gain influence and to generate profit.
