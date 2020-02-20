@@ -1,9 +1,9 @@
 baseurl: https://valinsky.me
 languageCode: en-us
-title: Vali Voicu
+title: Valinsky
 theme: hello-friend-ng
 author:
-  name: Dumitru Valeriu Voicu
+  name: Vali Voicu
 googleAnalytics: UA-151935413-1
 # copyright: ''
 # paginate: 10
@@ -18,12 +18,12 @@ params:
   # Default theme "light" or "dark"
   defaultTheme: dark
 
-  headTitle: Valinsky's Homepage
+  headTitle: Valinsky
   homeSubtitle: Think • Code • Encrypt • Decentralize
 
   # Metadata mostly used in document's head
-  title: Valinsky's homepage
-  description: Valinsky's homepage
+  title: Valinsky
+  description: Valinsky
   keywords: homepage, blog, science, informatics, development, programming, software
 
   images:
@@ -36,7 +36,7 @@ params:
       theme: "#252627"
 
   logo:
-    logoText: carpe noctem
+    logoText: carpe_noctem
     logoHomeLink: /
   
   social:

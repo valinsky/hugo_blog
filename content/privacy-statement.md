@@ -9,11 +9,7 @@ toc: false
 images:
   - /images/triangle.jpg
 tags:
-  - blog
   - privacy
-  - github
-  - google
-  - analytics
 categories:
   - privacy
 ---
