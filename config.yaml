@@ -36,7 +36,7 @@ params:
       theme: "#252627"
 
   logo:
-    logoText: carpe_noctem
+    logoText: ad_meliora
     logoHomeLink: /
   
   social:
