@@ -1,16 +1,14 @@
 ---
 title: Privacy Build 2020
 date: 2019-12-22T00:04:35-05:00
+lastmod: 2020-02-19T00:04:35-05:00
 draft: false
 description: Privacy Build 2020
 keywords: privacy, blog
 url: /posts/privacy-build-2020/
 toc: false
-images:
-  - /images/privacy_build/privacy.jpg
-header:
-  image: /images/privacy_build/privacy.jpg
-image_preview: /images/privacy_build/privacy.jpg
+# images:
+#   - /images/privacy_build/privacy.png
 tags:
   - privacy
   - tutorial
@@ -110,7 +108,9 @@ On my smartphone I also use the [DuckDuckGo browser](https://duckduckgo.com/app)
 #### Instant Messaging
 
 [Signal](https://www.signal.org/). Open source, minimalist, E2EE.  
-The argument against Signal is that your phone number is required. I think it's a fair argument. But we are diving into anonymity here. Privacy and anonymity are two separate things that should be approached differently.
+The argument against Signal is that your phone number is required. I think it's a fair argument, and Signal is aware of it. But we are diving into anonymity here. Privacy and anonymity are two separate things that should be approached differently.
+
+The reason why Signal asks for your phone number is that it can piggyback on your contact list straight from your phone, instead of storing those contacts on their servers. They seem alergic to storing user sensitive information.
 
 WhatsApp uses the Signal protocol as its encryption algorithm. I would never recommend WhatsApp as a secure and private messaging app though. WhatsApp is owned by Facebook. Facebook wants all your data, your friends data, and your friends friends data.
 
