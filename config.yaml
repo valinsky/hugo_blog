@@ -36,7 +36,7 @@ params:
       theme: "#252627"
 
   logo:
-    logoText: ad_meliora
+    logoText: vires_in_numeris
     logoHomeLink: /
   
   social:
