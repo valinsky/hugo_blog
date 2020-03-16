@@ -8,7 +8,6 @@ url: /posts/bloxplorer/
 toc: false
 images:
   - /images/bloxplorer/bitcoin.png
-images:
 tags:
   - bloxplorer
   - bitcoin
