@@ -1,7 +1,7 @@
 ---
 title: "I Built a Twitter Bot"
 date: 2020-06-07T15:15:12-04:00
-draft: true
+draft: false
 description: Twitter Bot
 keywords: twitter, bot, python
 url: /posts/i-built-a-twitter-bot/
