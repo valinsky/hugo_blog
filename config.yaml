@@ -19,7 +19,7 @@ params:
   defaultTheme: dark
 
   headTitle: Valinsky
-  homeSubtitle: Think • Code • Encrypt • Decentralize
+  homeSubtitle: Vires In Numeris
 
   # Metadata mostly used in document's head
   title: Valinsky
@@ -36,7 +36,7 @@ params:
       theme: "#252627"
 
   logo:
-    logoText: vires_in_numeris
+    logoText: Don't trust. Verify.
     logoHomeLink: /
   
   social:
