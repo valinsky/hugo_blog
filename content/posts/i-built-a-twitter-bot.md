@@ -65,7 +65,8 @@ if __name__ == '__main__':
     days_left = (blocks_left * 10) // 1440
     percent = round(((block_height - start_time) * 100) / HALVING_TIME, 2)
 
-    message = f"""{progress_bar(percent)} {percent}%
+    message = f"""🚀🚀🚀🚀 #bitcoin 🚀🚀🚀🚀
+{progress_bar(percent)} {percent}%
 Blocks left until the next halving: {blocks_left}
 Blocks mined: {block_height}
 Days left: ~{days_left}
@@ -104,5 +105,4 @@ I scheduled the bot to tweet every day at 12:00 AM UTC. I'm excited to see the p
 
 Here's the bot's first tweet, with many more to come, daily.
 
-{{< tweet 1269472637190844419 >}}
-
+{{< tweet 1270102145736544256 >}}
