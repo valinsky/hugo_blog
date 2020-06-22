@@ -67,8 +67,7 @@ if __name__ == '__main__':
 
     message = f"""🚀🚀🚀🚀 #bitcoin 🚀🚀🚀🚀
 {progress_bar(percent)} {percent}%
-Blocks left until the next halving: {blocks_left:,}
-Blocks mined: {block_height:,}
+Blocks left: {blocks_left:,}
 Days left: ~{days_left:,}
 """
 
@@ -80,7 +79,7 @@ The bot uses [Bloxplorer](https://valinsky.me/posts/bloxplorer/) to get the curr
 
 I added an ASCII progress bar to show the progress made in terms of percents. Thought that was a neat thing to have in a tweet.
 
-I'm also calculating the number of days left. This number is just an approximation, because I'm using a constant block generation time of 10 minutes, and in reality that is not always the case.
+I'm also calculating the number of days left. This number is an approximation, because I'm using a constant block generation time of 10 minutes, and in reality that is not always the case.
 
 In order to interact with the Twitter API I used [tweepy](https://github.com/tweepy/tweepy).  
 First I had to go on Twitter and create a [developer account](https://developer.twitter.com/en/docs/basics/developer-portal/overview) for myself. Then I had to create a [developer app](https://developer.twitter.com/en/docs/basics/apps/overview) which lets me generate the necessary keys to interact with the Twitter API.  
@@ -103,6 +102,6 @@ I heard a lot of talk about [Heroku](https://www.heroku.com/) during my software
 
 I scheduled the bot to tweet every day at 12:00 AM UTC. I'm excited to see the progress bar fill up while we're slowly approaching the 4th Bitcoin halving.
 
-Here's the bot's first tweet, with many more to come, daily.
+Here's on of the bot's first tweets, with many more to come, daily.
 
-{{< tweet 1270144128010145800 >}}
+{{< tweet 1274854981791858689 >}}
