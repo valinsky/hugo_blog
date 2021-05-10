@@ -1,7 +1,7 @@
 ---
 title: Stop Over Planning
 date: 2019-12-02T21:40:31-05:00
-draft: false
+draft: true
 description: Stop Over Planning
 keywords: progress, blog, life
 url: /posts/stop-over-planning/
