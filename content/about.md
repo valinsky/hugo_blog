@@ -14,8 +14,6 @@ categories:
   - about
 ---
 
-Hello, my name is Vali and I am a netizen.
-
-I love the **free**, **open**, **uncensored**, **secure** and **E2EE** internet.
+Coding, scalability, decentralization, censorship resistance, sovereignity, FOSS, E2EE, security.
 
 <br>
