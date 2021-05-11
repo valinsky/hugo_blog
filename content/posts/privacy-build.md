@@ -24,7 +24,7 @@ Companies started employing intelligent and invasive tracking methods to gather 
 
 Companies may offer top notch web and mobile apps to customers *for free*. Google, Facebook, Instagram, Twitter are some of the obvious examples. Everything you do while using these apps is recorded and saved in a centralized database forever. The saved data may be used for targeted ads, tracking your online activity, [profiling you](https://www.encyclopedia.com/books/educational-magazines/online-profiling), [influencing your political views](https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election) etc.
 
-{{< tweet 977559925680467968 >}}
+<!-- {{< tweet 977559925680467968 >}} -->
 
 Today I saw that Spotify is giving away a *free* Google Home Mini to premium users...
 
@@ -84,7 +84,7 @@ I will list some of the apps I started using that promote encryption and privacy
 
 The first thing I recommend doing after you install a new app is to update the privacy settings accorgindly.
 
-{{< tweet 1207311306614857728 >}}
+<!-- {{< tweet 1207311306614857728 >}} -->
 
 #### Browser
 
@@ -148,7 +148,7 @@ I think note taking apps are our most personal apps. We may write down our deepe
 
 #### Password Manager
 
-[Dashlane](https://www.dashlane.com/). I know I'm lacking behind here. While I do like the app and its features, it's not open source. I'm looking for an alternative.
+[Bitwarden](https://bitwarden.com/). Simple, secure and open source. The free plan should be fine for most users. The paid plan also offers 2FA codes which I'm gladly using over Google Auth or Authy.
 
 #### VPN
 

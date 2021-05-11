@@ -102,6 +102,4 @@ I heard a lot of talk about [Heroku](https://www.heroku.com/) during my software
 
 I scheduled the bot to tweet every day at 12:00 AM UTC. I'm excited to see the progress bar fill up while we're slowly approaching the 4th Bitcoin halving.
 
-Here's on of the bot's first tweets, with many more to come, daily.
-
 {{< tweet 1274854981791858689 >}}
