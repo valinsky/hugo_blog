@@ -4,7 +4,7 @@ title: Valinsky
 theme: hello-friend-ng
 author:
   name: Vali Voicu
-googleAnalytics: UA-151935413-1
+# googleAnalytics: UA-151935413-1
 # copyright: ''
 # paginate: 10
 enableRobotsTXT: true
@@ -19,12 +19,12 @@ params:
   defaultTheme: dark
 
   headTitle: Valinsky
-  homeSubtitle: Vires In Numeris
+  homeSubtitle: Senior Software Engineer
 
   # Metadata mostly used in document's head
   title: Valinsky
   description: Valinsky
-  keywords: homepage, blog, science, informatics, development, programming, software
+  keywords: homepage, blog, programming, software
 
   images:
     - /images/triangle.jpg
@@ -36,14 +36,12 @@ params:
       theme: "#252627"
 
   logo:
-    logoText: Don't trust. Verify.
+    logoText: cd /blog/
     logoHomeLink: /
   
   social:
     - name: github
       url: https://github.com/valinsky
-    - name: twitter
-      url: https://twitter.com/valinsky2k
     - name: linkedin
       url: https://www.linkedin.com/in/dumitruvaleriuvoicu/
 
@@ -59,7 +57,7 @@ menu:
       name: blog
       url: /posts
       weight: -110
-    - identifier: about
-      name: about
-      url: /about
-      weight: -100
+    # - identifier: about
+    #   name: about
+    #   url: /about
+    #   weight: -100

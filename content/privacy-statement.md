@@ -31,12 +31,4 @@ The website is hosted on [GitHub Pages](https://pages.github.com/).
 
 ## Analytics
 
-I am using Google Analytics as a third party tracking service. I do not use it to track you individually or collect personal information about you. Google Analytics is used to collect information about website performance and how users of this website interact with it. This helps me understand user interests better.
-
-I only collect the minimum amount of personal information required to understand the purpose of your interactions with this website. This information, as far as I am aware, will not be sold to third parties.
-
-Google Analytics gathers certain simple, non-personally identifying information over time, such as your IP address, browser type, internet service provider, referring and exit pages, time stamp, and similar data about your use of this website.
-
-You can opt out of Google Analytics tracking by using a script blocking browser extension or add-on and simply disabling the Google Analytics script. Google also provides a browser [add-on to block GA](https://tools.google.com/dlpage/gaoptout).
-
-[Googles Privacy Policy](https://policies.google.com/technologies/partner-sites)
+I am not using any analytics software and I am not collecting nor using any information about visitors.
