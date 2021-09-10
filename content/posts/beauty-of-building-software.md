@@ -1,7 +1,7 @@
 ---
 title: The Beauty of Building Software
 date: 2020-01-25T19:39:43-05:00
-draft: false
+draft: true
 description: the beauty of building software
 keywords: software, blog
 url: /posts/the-beauty-of-building-software

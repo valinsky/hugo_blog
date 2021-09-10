@@ -2,7 +2,7 @@
 title: Privacy Build 2020
 date: 2019-12-22T00:04:35-05:00
 lastmod: 2020-02-19T00:04:35-05:00
-draft: false
+draft: true
 description: Privacy Build 2020
 keywords: privacy, blog
 url: /posts/privacy-build-2020/
