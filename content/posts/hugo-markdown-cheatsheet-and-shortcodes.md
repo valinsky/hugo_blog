@@ -344,13 +344,13 @@ But again, this line is separated by a single newline, but the above paragraph h
 
 <br>
 
-## YouTube Videos
+<!-- ## YouTube Videos
 
 ```
 {{</* youtube id="h2FxSRZcYX0" */>}}
 ```
 
-{{< youtube id="h2FxSRZcYX0" >}}
+{{< youtube id="h2FxSRZcYX0" >}} -->
 
 <br>
 

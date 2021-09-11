@@ -25,7 +25,7 @@ While transitioning to CalyxOS I realized I was using many apps that I didn't re
 
 The apps that I ended up still using work well on CalyxOS. Some require [microG](https://microg.org/) because many of them are dependent on Google Services, but microG is entirely optional and CalyxOS can be used without it.
 
-A common argument that I hear against de-Googled mobile OS-es is that Google Maps doesn't work well. I've experienced this with GrapheneOS myself, but on CalyxOS it seems to work ok. Everytime I use it I'm greeted with a notification saying **Maps won't run unless you update Google Play services.** yet I ignore it and continue using the app as I normally would. Google Maps is the only Google app I still use and I'm waiting on the day I don't have to use it again, but it's just so good that I haven't found a decent replacement for it yet. Sigh...
+A common argument that I hear against de-Googled mobile OS-es is that Google Maps doesn't work well. I've experienced this with GrapheneOS myself, but on CalyxOS it seems to work ok. Everytime I use it I'm greeted with a notification saying `Maps won't run unless you update Google Play services` yet I ignore it and continue using the app as I normally would. Google Maps is the only Google app I still use and I'm waiting on the day I don't have to use it again, but it's just so good that I haven't found a decent replacement for it yet. Sigh...
 
 One app that I find particularly helpful is [Datura Firewall](https://calyxos.org/about/tech/datura/) which blocks other apps from having a network connection. This comes in handy when you want to block network access to privacy invasing apps while not in use. Looking at you Google Maps.
 
