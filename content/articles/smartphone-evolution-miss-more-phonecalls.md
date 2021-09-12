@@ -8,7 +8,7 @@ tags:
   - untagged
 description: How to sit
 keywords: programming
-url: /posts/how-smartphones-make-me-loose-phone-calls/
+url: /articles/how-smartphones-make-me-loose-phone-calls/
 ---
 
 At some point during the day today I saw I had three missed calls. One from my mom, and two from my friends. I got back to them, put the phone down and continued with my daily activities.

@@ -14,7 +14,7 @@ canonifyURLs: true
 
 params:
   # Directory name of your blog content (default is `content/posts`)
-  contentTypeName: posts
+  contentTypeName: articles
   # Default theme "light" or "dark"
   defaultTheme: dark
 
@@ -42,8 +42,8 @@ params:
   social:
     - name: github
       url: https://github.com/valinsky
-    - name: linkedin
-      url: https://www.linkedin.com/in/dumitruvaleriuvoicu/
+    - name: email
+      url: mailto:blog@valinsky.me
 
   # date format
   dateform: 2 Jan, 2006
@@ -53,9 +53,9 @@ params:
 
 menu:
   main:
-    - identifier: blog
-      name: blog
-      url: /posts
+    - identifier: articles
+      name: articles
+      url: /articles
       weight: -110
     # - identifier: about
     #   name: about

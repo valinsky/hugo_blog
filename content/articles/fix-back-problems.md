@@ -8,7 +8,7 @@ tags:
   - programming
 description: How to sit
 keywords: programming
-url: /posts/programming-and-back-problems/
+url: /articles/programming-and-back-problems/
 ---
 
 I sit a lot. If you're reading this you probably sit a lot too. We sit a lot because we spend a lot of time on the computer. We sit in chairs, couches, beds, sometimes with proper posture, sometimes with bad posture.

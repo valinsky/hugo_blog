@@ -4,7 +4,7 @@ date: 2019-12-02T21:40:31-05:00
 draft: true
 description: Stop Over Planning
 keywords: progress, blog, life
-url: /posts/stop-over-planning/
+url: /articles/stop-over-planning/
 toc: false
 images:
   - /images/stop_overplanning/overplanning.jpg

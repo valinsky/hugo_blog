@@ -4,7 +4,7 @@ date: 2021-09-10T15:15:12-04:00
 draft: false
 description: CalyxOS
 keywords: calyxos, android, open source
-url: /posts/calyxos/
+url: /articles/calyxos/
 toc: false
 tags:
   - calyxos

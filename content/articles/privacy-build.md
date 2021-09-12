@@ -5,7 +5,7 @@ lastmod: 2020-02-19T00:04:35-05:00
 draft: true
 description: Privacy Build 2020
 keywords: privacy, blog
-url: /posts/privacy-build-2020/
+url: /articles/privacy-build-2020/
 toc: false
 # images:
 #   - /images/privacy_build/privacy.png

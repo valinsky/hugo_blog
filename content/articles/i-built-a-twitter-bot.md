@@ -4,7 +4,7 @@ date: 2020-06-07T15:15:12-04:00
 draft: false
 description: Twitter Bot
 keywords: twitter, bot, python
-url: /posts/i-built-a-twitter-bot/
+url: /articles/i-built-a-twitter-bot/
 toc: false
 tags:
   - bot

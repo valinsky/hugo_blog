@@ -4,7 +4,7 @@ date: 2020-01-25T19:39:43-05:00
 draft: true
 description: the beauty of building software
 keywords: software, blog
-url: /posts/the-beauty-of-building-software
+url: /articles/the-beauty-of-building-software
 toc: false
 images:
   - /images/software_is_beautiful/colors.png

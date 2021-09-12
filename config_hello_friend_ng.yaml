@@ -3,8 +3,8 @@ languageCode: en-us
 title: Vali Voicu
 theme: hello-friend-ng
 author:
-  name: Dumitru Valeriu Voicu
-googleAnalytics: UA-151935413-1
+  name: Vali Voicu
+# googleAnalytics: UA-151935413-1
 copyright: ''
 # paginate: 10
 enableRobotsTXT: true
@@ -36,14 +36,12 @@ params:
       theme: "#252627"
 
   logo:
-    logoText: $ ./vali_blog.sh
+    logoText: $ cd /blog/
     logoHomeLink: /
   
   social:
     - name: github
       url: https://github.com/valinsky
-    - name: twitter
-      url: https://twitter.com/valinsky2k
     - name: linkedin
       url: https://www.linkedin.com/in/dumitruvaleriuvoicu/
 
@@ -55,11 +53,11 @@ params:
 
 menu:
   main:
-    - identifier: blog
-      name: blog
-      url: /posts
+    - identifier: articles
+      name: articles
+      url: /articles
       weight: -110
-    - identifier: about
-      name: about
-      url: /about
-      weight: -100
+    # - identifier: about
+    #   name: about
+    #   url: /about
+    #   weight: -100

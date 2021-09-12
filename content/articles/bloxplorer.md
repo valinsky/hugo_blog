@@ -4,7 +4,7 @@ date: 2020-02-08T10:49:18-05:00
 draft: true
 description: Bloxplorer
 keywords: bloxplorer, open source, python
-url: /posts/bloxplorer/
+url: /articles/bloxplorer/
 toc: false
 images:
   - /images/bloxplorer/bitcoin.png

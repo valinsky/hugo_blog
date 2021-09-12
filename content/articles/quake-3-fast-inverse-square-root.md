@@ -4,7 +4,7 @@ date: 2019-11-24T17:24:58-05:00
 draft: false
 description: The Magic of Quake 3's Fast Inverse Square Root Explained
 keywords: quake3, math, tutorial, blog
-url: /posts/quake3-fast-inverse-square-root/
+url: /articles/quake3-fast-inverse-square-root/
 customJS:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 toc: false
