@@ -90,7 +90,7 @@ This is what was happening:
 1. A cold lambda function is invoked which initializes a new container.
 2. The lambda function starts processing the csv file row by row and starts multipart uploading 6MB parts. It uploads 5 parts in this case.
 3. The lambda function completes the multipart upload.
-4. The lambda dies.
+4. The lambda function successfully completes execution.
 5. A new warm lambda function is invoked, which reuses the same container.
 6. The new lambda function starts processing another csv file and starts uploading 6MB parts. It should upload 10 parts in this case.
 7. The lambda function tries to complete the multipart upload, but the `InvalidPart` exception is thrown.
