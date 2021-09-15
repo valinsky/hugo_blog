@@ -72,14 +72,14 @@ def lambda_handler(event: Dict, context: Dict) -> None:
             multipart_uploader.upload_part(buffer)
             buffer.reset()
 
-    # mulitpart upload the remaining buffer and complete the multipart upload
+    # multipart upload the remaining buffer and complete the multipart upload
     multipart_uploader.upload_part(buffer)
     multipart_uploader.complete_upload()
 ```
 
 Everything worked great, until it didn't.
 
-Initial invocations of the lambda function were completing succesfully, but subsequent invocations of the lambda function within the same container were randomly failing with the following error:
+Initial invocations of the lambda function were completing successfully, but subsequent invocations of the lambda function within the same container were randomly failing with the following error:
 
 `"An error occurred (InvalidPart) when calling the CompleteMultipartUpload operation: One or more of the specified parts could not be found. The part may not have been uploaded, or the specified entity tag may not match the part's entity tag."`
 
