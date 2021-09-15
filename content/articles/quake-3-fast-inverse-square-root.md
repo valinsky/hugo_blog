@@ -1,8 +1,8 @@
 ---
-title: The Magic of Quake 3's Fast Inverse Square Root Explained
+title: The Square Root of Quake 3
 date: 2019-11-24T17:24:58-05:00
 draft: false
-description: The Magic of Quake 3's Fast Inverse Square Root Explained
+description: The Square Root of Quake 3
 keywords: quake3, math, tutorial, blog
 url: /articles/quake3-fast-inverse-square-root/
 customJS:
@@ -14,9 +14,7 @@ tags:
   - tutorial
 ---
 
-This is one of those magical unicorn algorithms.
-
-I was always intrigued by this small piece of code, because it's such a unique and elegant solution to a common problem, and it's part of a game I played a lot as a kid. I did not understand it then, but I do now.
+This is one of those crazy algorithms.
 
 This algorithm estimates the inverse square root, \\( 1 / \sqrt{number} \\), of a positive 32 bit floating point number.
 
