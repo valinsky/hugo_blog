@@ -26,7 +26,7 @@ class S3MultipartUploader:
         self._bucket = 'bucket'
         self._key = key
         self._s3_client = boto3.client('s3')
-        self._multipart_id = multipart_id or self._create_multipart()
+        self._multipart_id = self._create_multipart() if multipart_id is None else multipart_id
         self._parts = parts
     
     def _create_multipart(self) -> str:
@@ -126,7 +126,7 @@ def __init__(self, key: str, multipart_id: str = None, parts: List = None) -> No
     self._bucket = 'bucket'
     self._key = key
     self._s3_client = boto3.client('s3')
-    self._multipart_id = multipart_id or self._create_multipart()
+    self._multipart_id = self._create_multipart() if multipart_id is None else multipart_id
     self._parts = [] if parts is None else parts
 ```
 
